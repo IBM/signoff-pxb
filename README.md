@@ -1,7 +1,7 @@
 # signoff-pxb
 Repos for pxb related release sign-off
 
-Each PX-Backup release need to following this sign-off process and share all artifects before releasing to production.
+Each PX-Backup release need to follow this sign-off process and share all artifacts before releasing to production.
 PX team need to share the compatibility metrics as well for release. 
 
 
@@ -20,7 +20,7 @@ PX team need to share the compatibility metrics as well for release.
 - Functional tests
 
 
-### [Owner PX team] Tests that must be executed in the producation environment and performed after every release of px-backup
+### [Owner PX team] Tests that must be executed in the production environment and performed after every release of px-backup
 
 - Market place tests
 
