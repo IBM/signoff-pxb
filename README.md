@@ -25,15 +25,15 @@ PX team need to share the compatibility metrics as well for release.
 - Market place tests
 
 
-### [Owner IBM/PX team] Tests that must be executed in the staging environment and performed with every release of px-backup:
+### [Owner IBM and PX both team] Tests that must be executed in the staging environment and performed with every release of px-backup:
 
 - Integration tests, related with IBM Services dependencies - Frequency: Any changes in VPC CSI Drivers, PX-Backup release and BOM update
 - Integration tests, related with PX Services(PXE) dependency - Frequency: Any changes in PXE
   
 
 #### Integration tests
-- Taking backup/restoring of application which is using VPC Block CSI driver related storage - Frequency: run weekly(default IKS, ROKS, Satellite version)
+- Taking backup/restoring of application which is using VPC Block CSI driver related storage - Frequency: run weekly(default IKS, ROKS version)
 
-- Installation tests compatibility with IKS/ROKS/Satellite - Frequency: - run weekly( all supported versions - not on same day, 1 region per iteration)
+- Installation tests compatibility with IKS and ROKS(px-backup is not supported on Satellite) - Frequency: - run weekly( all supported versions - not on same day, 1 region per iteration)
 
 - Taking backup/restoring of application which is using PXE related storage - PX-Team -  Frequency - weekly
