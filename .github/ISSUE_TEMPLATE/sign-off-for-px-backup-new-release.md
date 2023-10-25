@@ -1,6 +1,6 @@
 ---
 name: Sign-Off for PX-Backup new release
-about: Sign-Off for PX-Backup new release
+about: Use this template to upload all required artefacts for sign-off process
 title: ''
 labels: sign-off
 assignees: ''
