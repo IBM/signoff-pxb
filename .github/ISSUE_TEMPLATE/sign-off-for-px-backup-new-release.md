@@ -8,12 +8,6 @@ assignees: ''
 ---
 
 ---
-name: Sign-Off for PX-Backup new release
-about: 'Use this template to upload all required artefacts for sign-off process'
-title: Sign-off PX-Backup V-xxx
-assignees: ''
-
----
 
 **PXB Signoff-Template**
 
@@ -25,6 +19,7 @@ assignees: ''
 - [ ] IKS/ROKS Support Matrix for new version
 - [ ] Steps for existing users to migrate to new versions
 - [ ] Bug fixes V/S TestCase mapping
+- [ ] Logs PX-Backup, stork (source and destination)
 
 **IBM:**
 
